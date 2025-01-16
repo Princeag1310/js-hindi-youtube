@@ -35,3 +35,29 @@ console.log(typeof bigNumber)
 console.log(typeof myObj)
 console.log(typeof myFunction)
 console.log(typeof heros)
+
+
+
+
+
+// ******************************************.  Memory Types    ***********************************
+
+//Stack Memory(Primitive) , Heap Memory(Non-Primitive)
+
+let myYoutubeName = "PrinceTechnicaldotcom"
+
+let anotherName = myYoutubeName
+anotherName = "PrinceAgrawal"
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne = {
+    email : "user@prince.com",
+    upi : "upi@Prince"
+}
+let userTwo = userOne
+
+userTwo.email = "Prince@Princedotcom"
+
+console.log(userOne.email)
+console.log(userTwo.email)
